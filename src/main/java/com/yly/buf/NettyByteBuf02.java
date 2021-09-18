@@ -25,7 +25,7 @@ public class NettyByteBuf02 {
             System.out.println(byteBuf.arrayOffset()); // 0
             System.out.println(byteBuf.readerIndex()); // 0
             System.out.println(byteBuf.writerIndex()); // 12
-            System.out.println(byteBuf.capacity()); // 36
+            System.out.println(byteBuf.capacity()); // 64
 
             //System.out.println(byteBuf.readByte()); //
             System.out.println(byteBuf.getByte(0)); // 104

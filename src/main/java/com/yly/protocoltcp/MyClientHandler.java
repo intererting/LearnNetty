@@ -31,7 +31,7 @@ public class MyClientHandler extends SimpleChannelInboundHandler<MessageProtocol
 
     }
 
-    //    @Override
+    @Override
     protected void channelRead0(ChannelHandlerContext ctx, MessageProtocol msg) throws Exception {
 
         int len = msg.getLen();
